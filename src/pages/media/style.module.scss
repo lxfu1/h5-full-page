@@ -1,0 +1,27 @@
+.container {
+  height: 100%;
+
+  .body {
+    padding: 16px;
+    box-sizing: border-box;
+    border: 2px solid rgb(34, 255, 89);
+
+    >h5 {
+      text-align: center;
+      color: red;
+      font-size: 48px;
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header {
+    height: 60px;
+  }
+  .body {
+    height: calc(100% - 120px);
+  }
+  .toolbar {
+    height: 60px;
+  }
+}

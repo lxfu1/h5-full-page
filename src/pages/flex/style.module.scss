@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+
+  .body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    box-sizing: border-box;
+    border: 2px solid rgb(34, 255, 89);
+    overflow: hidden;
+
+    >h5 {
+      text-align: center;
+      color: red;
+      font-size: 48px;
+    }
+  }
+}
+

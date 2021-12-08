@@ -1,0 +1,13 @@
+.container {
+  height: 100%;
+  .body {
+    height: calc(100% - 12rem);
+    border: 2px solid rgb(34, 255, 89);
+
+    >h5 {
+      text-align: center;
+      color: red;
+      font-size: 48px;
+    }
+  }
+}
