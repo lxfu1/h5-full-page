@@ -7,7 +7,7 @@ export default () => {
     <div className={styles.container}>
       <Header style={{ height: "10%" }} />
       <div className={styles.body}>
-        <h5>flex body</h5>
+        <h5>percent body</h5>
       </div>
       <Toolbar style={{ height: "10%" }} />
     </div>
